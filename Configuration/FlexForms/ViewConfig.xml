@@ -1,0 +1,56 @@
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <sheet1>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>sheet 1</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.flexform.something>
+                        <TCEforms>
+                            <label>select something</label>
+                            <config>
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">label 0</numIndex>
+                                        <numIndex index="1">value0</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">label 1</numIndex>
+                                        <numIndex index="1">value1</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.something>
+                </el>
+            </ROOT>
+        </sheet1>
+        <sheet2>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>sheet 2</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.flexform.somevalue>
+                        <TCEforms>
+                            <label>enter some int-value</label>
+                            <config>
+                                <type>input</type>
+                                <size></size>
+                                <max></max>
+                                <eval>int</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.somevalue>
+                </el>
+            </ROOT>
+        </sheet2>
+    </sheets>
+</T3DataStructure>
